@@ -1,2 +1,11 @@
 {
+    "title": "Peter Hagen's website",
+    "content": null,
+    "contact": {
+        "email": {
+            "address": "peter@this_domain",
+            "pgp_keyfile": "https://phgn.de/publickey.peter@phgn.de.asc"
+        },
+        "github": "github.com/phgn0"
+    }
 }
