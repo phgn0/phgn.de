@@ -6,6 +6,6 @@
             "address": "peter@this_domain",
             "pgp_keyfile": "https://phgn.de/publickey.peter@phgn.de.asc"
         },
-        "github": "github.com/phgn0"
+        "github": "https://github.com/phgn0"
     }
 }
