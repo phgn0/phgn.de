@@ -1,8 +1,20 @@
 {
   "title": "Peter Hagen's json",
-  "content": null,
+  "projects": [
+    {
+      "site": "https://tlds.cool",
+      "description": "domain availability search engine focussed on speed and user experience",
+      "tech": ["AWS", "Go", "React"]
+    },
+    {
+      "site": "https://beamd.io",
+      "description": "web app to easily share text (links, passwords, ...) between devices",
+      "tech": ["React", "Redux", "Redux-Saga", "Firebase"]
+    }
+  ],
   "contact": {
     "email": "peter@phgn.io",
-    "github": "https://github.com/phgn0"
+    "github": "https://github.com/phgn0",
+    "linkedin": "https://linkedin.com/in/pha"
   }
 }
