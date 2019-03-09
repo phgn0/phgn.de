@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/phgn0/phgn.io/issues"
   },
-  "homepage": "https://github.com/phgn0/phgn.io#readme"
+  "homepage": "https://github.com/phgn0/phgn.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "anchorme": "^1.1.2"
+  }
 }
