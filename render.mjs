@@ -1,9 +1,15 @@
-import json from "./info.json"
 import fs from "fs"
 
-export default function render(json) {
-    const text = JSON.stringify(json, null, 2) // preserves whitespace
+function read(file) {
+    return fs.readFileSync(file)
+}
 
+function write(file, text) {
+    fs.writeFileSync(file, text)
+}
+
+// render text to html
+export default function render(text) {
     const html = `<!DOCTYPE html>
     <html>
         <head>
@@ -16,18 +22,9 @@ export default function render(json) {
         </body>
     </html>`
 
-    write(html)
+    return html
 }
 
-function write(text) {
-    fs.writeFile("./index.html", text, (err) => {
-        if (err) {
-            console.log("Error writing to index.html")
-            process.exit(1);
-        }
-    });
-
-}
-
-
-render(json)
+const text = read("info.txt")
+const html = render(text)
+write("./index.html", html)
