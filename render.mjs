@@ -11,6 +11,7 @@ function write(file, text) {
 
 // render text to html
 export default function render(text, { title }) {
+    // turn urls into clickable links
     text = anchorme.default(text, {
         attributes: [{
             name: "target",
@@ -34,9 +35,8 @@ export default function render(text, { title }) {
     return html
 }
 
-// import as .txt to control whitespace
-const text = read("info.txt")
-const json = JSON.parse(text)
+const text = read("info.json")
+const data = JSON.parse(text)
 
-const html = render(text, json)
+const html = render(text, data)
 write("./index.html", html)
