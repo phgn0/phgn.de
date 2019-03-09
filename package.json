@@ -1,0 +1,19 @@
+{
+  "name": "phgn.io",
+  "version": "1.0.0",
+  "description": "my personal \"website\"",
+  "main": "render.js",
+  "scripts": {
+    "build": "node --experimental-modules render.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phgn0/phgn.io.git"
+  },
+  "author": "phgn@pm.me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phgn0/phgn.io/issues"
+  },
+  "homepage": "https://github.com/phgn0/phgn.io#readme"
+}
