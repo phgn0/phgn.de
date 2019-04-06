@@ -2,7 +2,7 @@
   "name": "phgn.io",
   "version": "1.0.0",
   "description": "my personal \"website\"",
-  "main": "render.js",
+  "main": "render.mjs",
   "scripts": {
     "build": "node --experimental-modules render.mjs"
   },
