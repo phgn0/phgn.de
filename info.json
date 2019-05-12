@@ -1,15 +1,16 @@
 {
-  "title": "Peter Hagen's json",
+  "title": "Peter Hagen's website",
+  "about_me": "I'm a developer & student interested in building web things.",
   "projects": [
     {
       "site": "tlds.cool",
-      "description": "domain availability search engine focussed on speed and user experience",
-      "tech": ["AWS", "Go", "React"]
+      "description": "Domain availability search engine focussed on speed and user experience",
+      "tech": [ "AWS", "Go", "React" ]
     },
     {
       "site": "beamd.io",
-      "description": "web app to easily share text (links, passwords, ...) between devices",
-      "tech": ["React", "Redux", "Redux-Saga", "Firebase"]
+      "description": "Web app to easily share text (links, passwords, ...) between devices",
+      "tech": [ "React", "Redux", "Redux-Saga", "Firebase" ]
     }
   ],
   "contact": {
