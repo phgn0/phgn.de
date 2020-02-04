@@ -1,16 +1,17 @@
 {
   "title": "Peter Hagen's website",
-  "about_me": "I'm a developer & student interested in building web things.",
+  "about_me": "Full-stack developer. Currently creating a cloud IDE for Uber engineers to supercharge development.",
+  "resume": "phgn.io/resume.pdf",
   "projects": [
     {
       "site": "tlds.cool",
-      "description": "Domain availability search engine focussed on speed and user experience",
-      "tech": [ "AWS", "Go", "React" ]
+      "description": "Domain availability search engine focused on speed and user experience",
+      "tech_stack": [ "AWS DynamoDB", "Go", "React" ]
     },
     {
       "site": "beamd.io",
-      "description": "Web app to easily share text (links, passwords, ...) between devices",
-      "tech": [ "React", "Redux", "Redux-Saga", "Firebase" ]
+      "description": "Web app to easily and securely copy links and passwords between devices",
+      "tech_stack": [ "React", "Redux", "Redux-Saga", "Firebase cloud functions" ]
     }
   ],
   "contact": {
