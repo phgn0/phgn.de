@@ -27,7 +27,7 @@ export default function render(text, { title }) {
         <head>
             <meta charset="UTF-8">
             <title>${title}</title>
-            <script defer src="minimal_analytics.js"></script>
+            <script async defer data-domain="phgn.io" src="https://plausible.io/js/plausible.js"></script>
         <link rel="stylesheet" type="text/css" href="./index.css">
         </head>
         <body>
