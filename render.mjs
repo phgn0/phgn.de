@@ -27,6 +27,8 @@ export default function render(text, { title }) {
         <head>
             <meta charset="UTF-8">
             <title>${title}</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
             <script async defer data-domain="phgn.io" src="https://plausible.io/js/plausible.js"></script>
         <link rel="stylesheet" type="text/css" href="./index.css">
         </head>

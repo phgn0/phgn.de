@@ -1,16 +1,28 @@
 {
   "title": "Peter Hagen's website 👨‍💻",
-  "about_me": "Full-stack developer. Currently creating development tools for Uber engineers.",
+  "about_me": "Software Engineer working on developer experience, data infrastructure and customer experience.",
+  "jobs": [
+    {
+      "company": "databricks.com",
+      "job_description": "Building visibility tools across our data service platform, allowing customers to understand their needs and increase value per $ spent.",
+      "tech_stack": [ "Scala", "Databricks" ]
+    },
+    {
+      "company": "uber.com",
+      "job_description": "Helped create cloud-based development environment (think GitHub Codespaces), and started web IDE initiative to increase business velocity.",
+      "tech_stack": [ "Kubernetes", "Go", "Typescript" ]
+    }
+  ],
   "projects": [
     {
       "site": "tlds.cool",
-      "description": "Domain availability search engine focused on speed and user experience",
-      "tech_stack": [ "AWS DynamoDB", "Go", "React" ]
+      "description": "Domain availability search engine focused on speed and simplicity.",
+      "tech_stack": [ "DynamoDB", "AWS Lambda", "Go", "React" ]
     },
     {
       "site": "beamd.io",
-      "description": "Web app to easily and securely copy links and passwords between devices",
-      "tech_stack": [ "React", "Redux", "Redux-Saga", "Firebase cloud functions" ]
+      "description": "Web app to easily and securely copy links and passwords between devices.",
+      "tech_stack": [ "React", "Redux-Saga", "Firebase" ]
     }
   ],
   "contact": {
